@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="input" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -23,5 +24,7 @@
         </tr>
     </c:forEach>
 </table>
+<br>
+<input type="button" value="Add" onclick="window.location.href ='/com_mvc_hibernate_aop/addNewEmployee'"/>
 </body>
 </html>
